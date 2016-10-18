@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="styles/links.css" type="text/css"/>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+        <script type="text/javascript" src="js/unslider.js"></script>
+        <title>Elena Sparacio Interactive Resume</title>
+        <script type="text/javascript">
+                $(document).ready(function(){
+                $("body").css("display","none");
+                $("body").fadeIn(1000);           
+            });
+
+        </script>
+</head>
+    <body>
+        <a href="index.html"><img class="logo" src="images/logospace.png" alt="logo"></a>
+        <h2>Contact Me</h2>
+        <div id ="horizontal">
+                <ul id="navbar">
+                    <li><a href="edu.html">EDUCATION</a></li>
+                    <li><a href="csskills.html">COMPUTER SKILLS</a></li>
+                    <li><a href="exp.html">EXPERIENCES</a></li>
+                    <li><a href="port.html">PORTFOLIO</a></li>
+                    <li><a href="pdfs/resume.pdf">RESUME</a></li>
+                    <li><a href="contact.html">CONTACT ME</a></li>  
+                    
+                 </ul>
+        </div>
+        <section class="for">
+            <h3>3095 Arborwoods Drive&#44; Alpharetta&#44; GA 30022 &#126; 
+            Phone&#58; 908&#45;256&#45;6414 &#126; E&#45;mail&#58; esparacio&#64;elon.edu </h3>
+            <h3> </h3>
+            <form action="contact" method="post">
+        <input type="hidden" name="action" value="add"> 
+        <p><i>${message}</i></p>
+        <p>If you want to contact me via the website, please fill out the form.</p>
+        <p><label>Name: </label><input name="fullName" type="text" 
+        value="${fullName}" required /></p>
+        <p><label>Email Address: </label><input name="emailAddress" 
+        type="email" value="${emailAddress}" required /></p>
+        <p><label>Company: </label><input name="companyName" 
+        type="text" value="${companyName}" required/> </p>
+        <p><label>Message: </label><input name="message"
+        type="text" vale="${message}" required/></p>
+        <label>         </label><input class= "butt" type="submit" 
+        value="SUBMIT">
+        </section>
+       
+    </body>
+</html>
