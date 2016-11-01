@@ -28,6 +28,26 @@ body {
     background:white;
 }
 
+.edu{
+    background:black;
+    border: 10px solid grey;
+    color:white;
+    float:left;
+    margin-bottom:2em;
+    padding:1em;
+    width:25%;
+}
+
+.full{
+    background:white;
+    border:10px solid grey;
+    font-family: 'Titillium Web', sans-serif;
+    float:right;
+    margin-right:3em;
+    padding: 1em;
+    width:60%;
+}
+
 #horizontal{
     text-align:center;
 }
